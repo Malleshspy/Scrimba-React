@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}.nav-items {
+  display: flex;
+  align-items: center;
+  background-color: #282c34;
+  padding: 10px;
+  color: white;
+  padding: 10px;
+  margin: 0;
+}
+.nav-items img {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.nav-items h1 {
+  font-size: 24px;
+}
+.facts{
+  background-color: #282c34;
+  color: aliceblue;
+  padding: 10px;
+  height: 100%; 
+   
+  
+}
+.facts h1{
+  font-size: 30px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  
+}
+.fact-items{
+  font-size: 20px;
+  padding: 10px;
+  
+   
+  
+}
+.list-item{
+margin-left: 10px;
+margin-bottom: 20px;
+}
+.list-item::marker {
+  color: rgb(0, 208, 255);
+}
