@@ -1,0 +1,71 @@
+header{
+  height: 50px;
+  background-color: brown;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+
+}
+header > img{
+  height: 30px;
+}
+header > h1{
+  margin-left: 20px;
+  font-size: 30px;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+.travel {
+  display: flex;
+  align-items: center;  /* <-- Vertically center image with text */
+  gap: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+
+.travel p{
+  font-size: 14px;
+  flex-direction: column;
+}
+
+.travel {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.travel-img {
+  width: 250px;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.travel-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.travel-text p, 
+.travel-text a {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+.travel-text a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+.travel-text a:hover {
+  text-decoration: underline;
+}
